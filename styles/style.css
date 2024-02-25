@@ -1,1 +1,133 @@
-/* место для вашего кода */
+body {
+  background-color: antiquewhite;
+}
+
+.header {
+  padding: 92px 24px 96px;
+  background-color: white;
+}
+
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_links-list {
+  list-style: circle;
+  display: flex;
+  column-gap: 26px;
+}
+
+.header_links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header_links-list-item {
+
+}
+
+.header_link-active {
+  text-decoration: none;
+}
+
+.header_logo {
+  display: block;
+  width: 148px;
+  
+}
+
+.header_logo-image {
+  
+}
+
+.cover {
+  z-index: 0;
+  position:relative;
+  display:block;
+  width: 1100px;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.overlay {
+  z-index: -1;
+  position:absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+}
+
+.cover_title {
+  inset: 0;
+  z-index: 2;
+  display:flex;
+  flex-direction: column;
+  padding: 165px 50px 237px;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.aligned_text-center {
+  align-self: center;
+}
+
+.aligned_text-right {
+  align-self: flex-end;
+  letter-spacing: 0.6em;
+  text-align: right;
+  
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0.3em;
+}
+
+.letter-spacing-zero {
+  letter-spacing: 0;
+}
+
+.cover_description {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: #fff;
+  margin-top: -100px;
+  
+}
+
+.cover_description-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 127%;
+  word-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.bet-button {
+  background-color: transparent;
+  width: 256px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 22px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
