@@ -1,6 +1,6 @@
-address {
+.address {
   font-style: normal;
-  font-family: Raleway;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -28,7 +28,7 @@ address {
 }
 
 .header_links-list-item {
-  font-family: Raleway;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -81,6 +81,7 @@ address {
   display:flex;
   flex-direction: column;
   padding: 165px 50px 135px;
+  font-family: 'Raleway', Arial, sans-serif;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
@@ -125,6 +126,7 @@ address {
 }
 
 .cover_description-text {
+  font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 127%;
@@ -137,12 +139,17 @@ address {
   background-color: transparent;
   width: 256px;
   height: 51px;
+  font-family: 'Raleway', Arial, sans-serif;
   font-weight: 500;
   font-size: 22px;
   border: 1px solid white;
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+}
+
+.bet-button:hover {
+  background: gold;
 }
 
 .lots {
@@ -153,6 +160,7 @@ address {
   padding-left: 40px;
   padding-bottom: 27px;  
   text-transform: uppercase;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -173,7 +181,10 @@ address {
   justify-content: space-between;
   max-width: 334px;
   min-height: 563px;
-  
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
 }
 
 .card-link {
@@ -182,6 +193,7 @@ address {
 
 .card_title {
   padding: 51px 40px 0px;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 26px;
@@ -195,6 +207,7 @@ address {
 
 .card_text {
   padding: 0px 40px 48px;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -203,31 +216,20 @@ address {
 }
 
 .card_type_film {
-  position: relative;
-  z-index: -2;
-  background-size: cover;
   background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
 }
 
 .card_type_book {
-  position: relative;
-  z-index: -2;
-  background-size: cover;
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
 }
 
 .card_type_picture {
-  position: relative;
-  z-index: -2;
-  background-size: cover;
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
 }
 
 .lots_look-more-link {
   padding-left: 40px;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
@@ -265,6 +267,7 @@ address {
 }
 
 .about_title {
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -274,6 +277,7 @@ address {
 }
 
 .about_text {
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -281,7 +285,7 @@ address {
   grid-column-start: 2;
 }
 
-.about_text_two {
+.about_text:last-child {
   padding-top: 24px;
 }
 
@@ -298,7 +302,7 @@ address {
 }
 
 .footer_menu-list-item {
-  font-family: Raleway;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
